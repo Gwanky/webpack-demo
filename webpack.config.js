@@ -11,7 +11,7 @@ const HtmlIndex = new HtmlWebpackPlugin({
 })
 
 const ExtractCSS = new ExtractTextPlugin({
-    filename: 'css/vender/common.css'
+    filename: 'css/vendor/common.css'
 })
 
 const config = {
